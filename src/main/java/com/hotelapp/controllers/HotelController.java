@@ -85,7 +85,7 @@ public class HotelController {
 
 	
 	//get all hotels
-	List<Hotel>getAllHotels();
+	//List<Hotel>getAllHotels();
 	
 	
 	
