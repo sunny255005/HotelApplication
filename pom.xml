@@ -66,4 +66,17 @@
 		</plugins>
 	</build>
 
+<distributionManagement>
+	
+	 <repository>
+      <id>jenkinscheck</id>
+	<name>jenkinscheck-release</name>
+	<url>http://localhost:8081/repository/jenkinscheck-release/</url>
+   </repository>
+   <snapshotRepository>
+      <id>jenkinscheck</id>
+	<name>jenkinscheck-snapshots</name>
+      <url>http://localhost:8081/repository/jenkinscheck-snapshots/</url>
+   </snapshotRepository>
+</distributionManagement>
 </project>
